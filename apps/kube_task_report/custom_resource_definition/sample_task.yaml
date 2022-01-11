@@ -1,0 +1,7 @@
+apiVersion: marufeuille.dev/v1beta1
+kind: taskreport
+metadata:
+  name: testtask
+spec:
+  started: "2022-01-11T21:45:00"
+  notes: "あれとこれやる"
