@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: controller
+spec:
+  serviceAccount: controller-sa
+  containers:
+  - name: controller
+    image: gcr.io/ishii_sandbox/controller

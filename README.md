@@ -1,3 +1,4 @@
+## Kubernetes deploy
 - udevがなかった
   - https://note.spage.jp/archives/233
 - dockerとkubeletのcgroup統一
@@ -26,3 +27,7 @@ kubeadm join 10.0.0.2:6443 --token xxxx \
  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/k8s-manifests/kube-flannel-rbac.yml
 ```
+
+## CRD
+- 参考
+  - https://github.com/karmab/samplecontroller
